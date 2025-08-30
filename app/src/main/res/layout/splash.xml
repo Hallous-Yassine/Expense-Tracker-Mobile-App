@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_logo"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:id="@+id/splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense Tracker"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:layout_below="@id/splash_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
